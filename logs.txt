@@ -1,0 +1,15 @@
+*   7687563 Merge branch '7-count-tasks-per-category'
+|\  
+| * a21d1b4 Implement 7-count-tasks-per-category
+* |   bb79147 Merge pull request #12 from BejzaShashko/9-mark-all-tasks-in-a-category-as-completed
+|\ \  
+| * | 40a471a Implement 9-mark-all-tasks-in-a-category-as-completed
+| |/  
+* |   a02e602 Merge pull request #10 from BejzaShashko/2-find-all-completed-tasks
+|\ \  
+| |/  
+|/|   
+| * 9f1f4cf Implement 2-find-all-completed-tasks
+|/  
+* 21112b2 Add starter code
+* 71c34af Initial commit

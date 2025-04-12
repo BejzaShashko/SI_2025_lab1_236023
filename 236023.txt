@@ -1,0 +1,26 @@
+Дел 2:
+git fetch origin - се ажурира локалното repo со remote repo
+
+git checkout 2-find-all-completed-tasks - влегувам во гранката
+git add . - ги додавам сите промени 
+git commit -m "Implement 2-find-all-completed-tasks" - commit за имплементацијата на методот
+git push origin 2-find-all-completed-tasks - синхронизација од локалниот repo на remote repo
+
+Истото го направив за сите три гранки
+
+За спојување на третата гранка ги користив овие команди 
+git checkout master
+git merge 7-count-tasks-per-category - спојување на master со гранката "7-count-tasks-per-category" 
+git push origin master
+
+Дел 3:
+Одкако го направам fork го користам следната команда за клонирање
+git clone https://github.com/BejzaShashko/SI_2025_lab1_151020.git
+ 
+cd SI_2025_lab1_151020
+nano 236023.txt - пишувам Име и Презиме
+git add 236023.txt
+git commit -m "Add file"
+git checkout master
+git push origin master
+Потоа креирам pull request со име 236023
